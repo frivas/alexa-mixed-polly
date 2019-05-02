@@ -66,7 +66,7 @@ This tag can be included at any point of the responde, like in between other phr
 In the example above, Alexa welcomes the user and plays an audio file and then tells the user what can be done.
 
 ## There are a few important things to take into account
-- Up to 5 audio file can be included in one response.
+- Up to 5 audio files can be included in one response.
 - The maximum duration is 240 seconds in total.
 - The supported format is MP3.
 - The files have to be available through HTTPS and should be available publicly.
@@ -80,7 +80,7 @@ In the example above, Alexa welcomes the user and plays an audio file and then t
 - If you decide to host the audio files using S3 then remember to give your Lambda user permissions to access the S3 service.
 
 # Tools
-In most cases, a re-codification of the audio file is needed to comply with the sample rate, for example. I would suggest using Audacity, SoX or FFmpeg. Take a look the [Amazon’s documentation](https://medium.com/r/?url=https%3A%2F%2Fdeveloper.amazon.com%2Fes%2Fdocs%2Fcustom-skills%2Fspeech-synthesis-markup-language-ssml-reference.html%23audio) about this.
+In most cases, you might need to change the sample rate of the audio file so it complies with Alexa's requirements, for example. I would suggest using Audacity, SoX or FFmpeg. Take a look the [Amazon’s documentation](https://medium.com/r/?url=https%3A%2F%2Fdeveloper.amazon.com%2Fes%2Fdocs%2Fcustom-skills%2Fspeech-synthesis-markup-language-ssml-reference.html%23audio) about this.
 
 In this article I am going to use SoX. As it is the tool available to be used in Lambda and also Daniel made the effort to provide it, reusability is king! (Thanks again Daniel).
 
