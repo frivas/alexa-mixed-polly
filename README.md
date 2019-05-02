@@ -283,4 +283,4 @@ The rest is the same as the *LaunchRequest*.
 - [Example Skill’s code](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Ffrivas%2Falexa-mixed-polly).
 - [Daniel Mittendorf’s project](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2FDanMittendorf%2Falexa-polly-background-mixing-nodejs).
 
-## If there are any issues with the code or you want to provide suggestions, comments or get in touch, do not hesitate. 
+## If there are any issues with the code or you want to provide suggestions, comments or get in touch, feel free to reach out. 
