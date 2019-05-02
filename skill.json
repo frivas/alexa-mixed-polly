@@ -2,14 +2,14 @@
   "manifest": {
     "publishingInformation": {
       "locales": {
-        "en-US": {
+        "es-ES": {
           "summary": "Sample Short Description",
           "examplePhrases": [
             "Alexa open hello class world",
             "hello",
             "help"
           ],
-          "name": "Hello Class World",
+          "name": "PollyMixed",
           "description": "Sample Full Description"
         }
       },
@@ -21,8 +21,16 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "sourceDir": "lambda/py",
-          "uri": "ask-custom-helloworld-classes-default"
+          "sourceDir": "lambda/py/lambda_upload",
+          "uri": "arn:aws:lambda:eu-west-1:089266635006:function:PollyMixed"
+        },
+        "regions": {
+            "EU": {
+                "endpoint": {
+                    "sourceDir": "lambda/py/lambda_upload",
+                    "uri": "arn:aws:lambda:eu-west-1:089266635006:function:PollyMixed"
+                }
+            }
         }
       }
     },
