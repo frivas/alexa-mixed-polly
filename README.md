@@ -112,7 +112,7 @@ There are some Python packages that we will use.
 - **boto3 (comes with the ask-sdk):** Used to create the S3 and Polly clients.
 - **subprocess:** Used to perform the tasks related to the environment like copying files.
 - **hashlib:** used to calculate the *md5* of the resulting audio file to be used as the filename in S3.
-- **mutagen: **Used to calculate the audio file length in seconds.
+- **mutagen:** Used to calculate the audio file length in seconds.
 - **gender_guesser:** Used to guess the gender of the person’s name provided by the user.
 
 # How the Skill works
