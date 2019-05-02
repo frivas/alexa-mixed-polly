@@ -118,7 +118,7 @@ There are some Python packages that we will use.
 # How the Skill works
 The sample skill is available [here](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Ffrivas%2Falexa-mixed-polly). Take a look at *hello_world.py* - not the most original name ever :)-.
 
-The first thing we to think of is the availability of the tool that will be used to combine the audio streams (Polly and background music).
+The first thing we need to think of is the availability of the tool that will be used to combine the audio streams (Polly and background music).
 
 I have placed the *sox* tool in the *audio* directory (Thanks again Daniel). As the environment where our Lambda function is executed is read-only there is a need to create a functions that copies the tool to a directory where its permissions can be changed and then executed. That directory is */tmp*. For that reason *prepareTools()*:
 
