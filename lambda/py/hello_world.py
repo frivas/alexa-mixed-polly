@@ -29,7 +29,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 my_region = 'eu-west-1'
-bucket_name = 'mixedpolly'
+bucket_name = '<bucket_name>'
 polly_url = f'https://polly.{my_region}.amazonaws.com/'
 s3_url = f'https://s3-{my_region}.amazonaws.com/'
 background_file_intro = f"{os.environ['LAMBDA_TASK_ROOT']}/audio/pavane_aws.mp3"
