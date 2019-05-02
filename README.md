@@ -65,7 +65,7 @@ This tag can be included at any point of the responde, like in between other phr
 
 In the example above, Alexa welcomes the user and plays an audio file and then tells the user what can be done.
 
-## There a few important things to take into account
+## There are a few important things to take into account
 - Up to 5 audio file can be included in one response.
 - The maximum duration is 240 seconds in total.
 - The supported format is MP3.
